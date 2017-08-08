@@ -4,23 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
   <title>Document</title>
   <style>
     body {
+      background-image: url('https://media.giphy.com/media/l2YWAvcJE9n9IXl2E/giphy.gif');
+      background-size: cover;
       margin: 0;
+    }
+
+    .background {
       text-decoration: underline;
       height: 100vh;
-      background: #3498db;
-      font-family: "Open Sans";
-      font-size: 42px;
+      background: rgba(204, 204, 204, 0.3);
+
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    .title {
+      font-family: "Lato", sans-serif;
+      font-size: 42px;
+      opacity: 1;
+    }
+
+    a {
       color: white;
     }
+
+    a:hover {
+      color: #DDD;
+    }
+
   </style>
 </head>
 <body>
-  <h1>Hello !</h1>
+
+  <div class="background">
+    <div class="title">
+      <a href="http://volpeo.fr/"><h1>Hello !</h1></a>
+    </div>
+  </div>
 </body>
 </html>
